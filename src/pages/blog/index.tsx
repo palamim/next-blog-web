@@ -34,7 +34,7 @@ const Blog = ({ posts }: InferGetStaticPropsType<typeof getStaticProps>) => {
   return (
     <Container>
       <Hbox>
-        <Hbox.Item hAlign={'center'}>
+        <Hbox.Item $hAlign={'center'}>
           <FaBrain color={Color.LightOrange} size={'2em'} />
         </Hbox.Item>
       </Hbox>

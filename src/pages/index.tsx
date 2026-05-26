@@ -8,12 +8,13 @@ import { ImageStyled } from 'src/atomic/atm.image/image.component';
 const Home = () => (
   <Container>
     <Hbox>
-      <Hbox.Item hAlign={'center'}>
+      <Hbox.Item $hAlign={'center'}>
         <ImageStyled
           src={profileImage}
           width={240}
           height={240}
           alt={'Palamim'}
+          loading={'eager'}
         />
       </Hbox.Item>
     </Hbox>
